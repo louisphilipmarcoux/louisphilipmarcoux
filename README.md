@@ -1,7 +1,7 @@
 # Louis-Philip Marcoux
 
-Software engineer focused on systems programming, infrastructure, and AI/ML.  
-I build things from scratch — container runtimes, parsers, MLOps pipelines — with a bias toward correctness and production quality.
+Software engineer focused on distributed systems, systems programming, and infrastructure.
+I build things at the layer most people use as a black box — consensus algorithms, container runtimes, storage engines.
 
 Founder of [Groupe Sentinella](https://groupesentinella.com).
 
@@ -9,7 +9,13 @@ Founder of [Groupe Sentinella](https://groupesentinella.com).
 
 ## Featured Projects
 
-### Systems & Infrastructure
+### Distributed Systems & Storage
+
+| Project | Stack | Description |
+|---|---|---|
+| [raft](https://github.com/louisphilipmarcoux/raft) | Rust | Distributed KV store with Raft consensus — custom LSM-tree, MVCC/OCC transactions, linearizable reads, joint consensus membership, chaos testing. 230+ tests. Published on crates.io. |
+
+### Container Runtime & Infrastructure
 
 | Project | Stack | Description |
 |---|---|---|
@@ -20,7 +26,7 @@ Founder of [Groupe Sentinella](https://groupesentinella.com).
 
 | Project | Stack | Description |
 |---|---|---|
-| [rill-json](https://github.com/louisphilipmarcoux/rill-json) | Rust | RFC 8259-compliant streaming JSON parser and serializer — 100% safe, zero-allocation, published on crates.io |
+| [rill-json](https://github.com/louisphilipmarcoux/rill-json) | Rust | RFC 8259-compliant streaming JSON parser and serializer — 100% safe Rust, zero-allocation, published on crates.io |
 | [pseudo-lisp-interpreter](https://github.com/louisphilipmarcoux/pseudo-lisp-interpreter) | Python | Lisp interpreter with lexer, parser, AST evaluator, macro expansion, static UML analysis, and call tracing |
 | [codecrafters-shell-c](https://github.com/louisphilipmarcoux/codecrafters-shell-c) | C | POSIX shell built from scratch in C |
 
@@ -34,9 +40,9 @@ Founder of [Groupe Sentinella](https://groupesentinella.com).
 
 ## Tech
 
-**Languages:** Go · Rust · C · Python · TypeScript  
-**Infrastructure:** Docker · Kubernetes · Terraform · GCP  
-**ML/Data:** Kafka · MLflow · FastAPI · DVC · Prometheus
+**Languages:** Rust · Go · C · Python · TypeScript  
+**Distributed systems:** Raft consensus · LSM-tree · MVCC · gRPC · Protobuf  
+**Infrastructure:** Docker · Kubernetes · Terraform · GCP · Prometheus
 
 ---
 
