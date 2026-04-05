@@ -34,7 +34,7 @@ Founder of [Groupe Sentinella](https://groupesentinella.com).
 |---|---|---|
 | [rill-json](https://github.com/louisphilipmarcoux/rill-json) | Rust | RFC 8259-compliant streaming JSON parser and serializer — 100% safe Rust, zero-allocation, published on crates.io |
 | [pseudo-lisp-interpreter](https://github.com/louisphilipmarcoux/pseudo-lisp-interpreter) | Python | Lisp interpreter with lexer, parser, AST evaluator, macro expansion, static UML analysis, and call tracing |
-| [codecrafters-shell-c](https://github.com/louisphilipmarcoux/codecrafters-shell-c) | C | POSIX shell built from scratch in C |
+| [shell-c](https://github.com/louisphilipmarcoux/shell-c) | C | POSIX shell built from scratch in C |
 
 ---
 
