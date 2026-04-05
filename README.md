@@ -33,4 +33,19 @@ Founder of [Groupe Sentinella](https://groupesentinella.com).
 
 | Project | Stack | Description |
 |---|---|---|
-| [rill-json](https://github.com/louisphilipmarcoux/rill-json) | Rust | RFC 8259-compliant streaming JSON parser and serializer — 100% safe Rust,
+| [rill-json](https://github.com/louisphilipmarcoux/rill-json) | Rust | RFC 8259-compliant streaming JSON parser and serializer — 100% safe Rust, zero-allocation, published on crates.io |
+| [shell-c](https://github.com/louisphilipmarcoux/shell-c) | C23 | POSIX-like shell — lexer, parser, AST, pipelines, job control, signal handling, trie-based tab completion, 50 integration tests |
+| [pseudo-lisp-interpreter](https://github.com/louisphilipmarcoux/pseudo-lisp-interpreter) | Python | Lisp interpreter with lexer, parser, AST evaluator, macro expansion, static UML analysis, and call tracing |
+
+---
+
+## Tech
+
+**Languages:** Rust · Zig · Go · C · Python · TypeScript  
+**Distributed systems:** Raft consensus · LSM-tree · MVCC · RESP2 · gRPC · Protobuf  
+**ML/Data:** Kafka · MLflow · HuggingFace · Evidently AI · DVC · MinIO · Redis  
+**Infrastructure:** Docker · Kubernetes · Terraform · GCP · Prometheus · Grafana
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/louis-philip-marcoux-b33269273) · [Groupe Sentinella](https://groupesentinella.com)
