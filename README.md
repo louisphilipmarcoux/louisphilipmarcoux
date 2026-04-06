@@ -7,21 +7,28 @@ Founder of [Groupe Sentinella](https://groupesentinella.com).
 
 ---
 
-## Featured Projects
+## Flagship: A Three-System Production Stack
+
+Three interconnected systems built sequentially at production quality — each complete within
+its defined scope, each instrumenting or depending on the others.
+
+| Project | Stack | Role in the stack |
+|---|---|---|
+| [vessel](https://github.com/louisphilipmarcoux/vessel) | Go | OCI container runtime — runs the raft cluster as isolated, resource-limited containers |
+| [raft](https://github.com/louisphilipmarcoux/raft) | Rust | Distributed KV store — stores cluster state, emits OTel traces and Raft election metrics to lens |
+| [lens](https://github.com/louisphilipmarcoux/lens) | Go + TypeScript + Python | Observability platform — ingests metrics, logs, and traces from vessel and raft |
+
+vessel runs raft. raft emits telemetry. lens observes everything.
+
+---
+
+## Other Projects
 
 ### Distributed Systems & Storage
 
 | Project | Stack | Description |
 |---|---|---|
-| [raft](https://github.com/louisphilipmarcoux/raft) | Rust | Distributed KV store with Raft consensus — custom LSM-tree, MVCC/OCC transactions, linearizable reads, joint consensus membership, chaos testing. 230+ tests. Published on crates.io. |
 | [redis-zig](https://github.com/louisphilipmarcoux/redis-zig) | Zig | Redis server built from scratch — RESP2 protocol, 41+ commands, master-replica replication with PSYNC, pub/sub, streams, transactions, geospatial indexing, and ACL |
-
-### Container Runtime & Infrastructure
-
-| Project | Stack | Description |
-|---|---|---|
-| [vessel](https://github.com/louisphilipmarcoux/vessel) | Go | OCI-compatible container runtime — namespaces, cgroups v2, overlayfs, seccomp, bridge networking |
-| [go-load-balancer](https://github.com/louisphilipmarcoux/go-load-balancer) | Go | Production-grade HTTP load balancer with health checks, Kubernetes manifests, and Terraform configs |
 
 ### ML Platform
 
@@ -43,8 +50,9 @@ Founder of [Groupe Sentinella](https://groupesentinella.com).
 
 **Languages:** Rust · Zig · Go · C · Python · TypeScript  
 **Distributed systems:** Raft consensus · LSM-tree · MVCC · RESP2 · gRPC · Protobuf  
+**Observability:** eBPF · ClickHouse · PromQL · OpenTelemetry · Prometheus  
 **ML/Data:** Kafka · MLflow · HuggingFace · Evidently AI · DVC · MinIO · Redis  
-**Infrastructure:** Docker · Kubernetes · Terraform · GCP · Prometheus · Grafana
+**Infrastructure:** Docker · Kubernetes · Terraform · GCP
 
 ---
 
